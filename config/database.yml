@@ -84,3 +84,5 @@ production:
   database: blog_platform_production
   username: blog_platform
   password: <%= ENV['BLOG_PLATFORM_DATABASE_PASSWORD'] %>
+  host: localhost 
+  port: 5432  
