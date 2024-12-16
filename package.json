@@ -1,7 +1,7 @@
 {
   "name": "blog-platform",
   "scripts": {
-    "build": "bundle exec rake assets:precompile"
+    "build": "bundle config --delete bin && bundle binstubs bundler --force && bundle exec rake assets:precompile"
   },
   "private": true,
   "dependencies": {
